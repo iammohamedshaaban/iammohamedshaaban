@@ -1,58 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Assignment 4</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engage Bakery - Just another Engage Theme Demos site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="./dv9y20211412382021-05-114726044Donut Bakery Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-  <div class="main">
-    <div class="nav">
-      <div class="nlogo">
-        <img src="image/logo.png" alt="logo">
-      </div>
-      <div class="list">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Blog</li>
-          <li>News</li>
-        </ul>
-      </div>
-    </div>
-    <div class="info">
-      <div class="logo">
-        <img src="image/logo.png" alt=""> 
-      </div>
-      <h1>French Restaurant</h1>
-      <p class="desc">We're the best restaurant in the town.</p>
-      <div class="btns">
-         <button class="btn btn1">Learn More</button>
-         <button class="btn btn2">Book A Visit</button>
-      </div>
-    </div>
-  </div>
-  <div class="content">
-    <div class="con-text">
-      <h2>Our Location</h2>
-      <p> We have been operating for over 30 years and are Members of the
-            fredration of Master Builders. We work on projects big and small
-            from small residential extensions to full house. We are so happy
-            with this theme. Everyday it make our lives better.</p>
-      <p> Story on projects big and small from small residential extensions to
-            full house. We are so happy with this theme. Everyday it make our
-            lives better.
-          </p>
-    </div>
-    <div class="con-img">
-      <img src="image/row.jpg" alt="img row">
-    </div>
-  </div>
-</div>  
+    <header>
+        <div class="container header-container">
+            <img src="images/bakery-light-1.png" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h4>Welcome to</h4>
+                <h1>Family Bakery</h1>
+                <h2>We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles area.</h2>
+                <br>
+                <a href="#products" class="btn">Learn More</a>
+                <a href="#contact" class="btn">Contact US</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Story</h2>
+                <p>Founded in 2010, our bakery has been serving the community with handcrafted baked goods using time-honored techniques.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Who we are?</h2>
+                   <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
+                  <br>
+                  <ul  style="list-style-type: circle;">
+                   <li>We care about environment.</li>
+                   <br>
+                   <li>We are trusted by hundreds of clients.</li>
+                   <br>
+                   <li>Social media loves us!</li>
+                   <br>
+                   <li>This list is super easy to create.</li>
+                  </ul>
+                  <br>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/alexandru-stavrica-170390-800x760.jpg" alt="Baker preparing dough">
+                </div>
+            </div>
+            <br>
+            <br>
+             <div class="about-content">
+                <div class="about-image">
+                    <img src="images/full-2-800x640 (1).jpg" alt="Baker preparing dough">
+                </div>
+                <div class="about-text">
+                    <h2>Our Location</h2>
+                    <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
+              <br>
+                    <p>Story on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
+                  
+                  <br>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Baking</h2>
+                <p>Learn more about them. We have worked truly hard to make them perfect for every use.</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/ben-garratt-134774-600x500.jpg" alt="Sourdough Bread">
+                    </div>
+                    <div class="product-info">
+                        <h3>Superior Breads</h3>
+                        <p>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere.</p>
+                       
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/stas-ovsky-123540-600x500.jpg" alt="Croissants">
+                    </div>
+                    <div class="product-info">
+                        <h3>Bagels</h3>
+                        <p>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere.</p>
+                       
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/clem-onojeghuo-206832-600x500.jpg" alt="Chocolate Cake">
+                    </div>
+                    <div class="product-info">
+                        <h3>Cookies</h3>
+                        <p>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Visit our bakery or contact us for special orders and inquiries.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <p>Our contact details:</p>
+                    <div class="contact-details">
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Carrefour, El Obour City</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-phone"></i>
+                            <span>+46 123 456 789</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@sitename.com</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-clock"></i>
+                            <span>Daily from 10AM : 11PM</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/iammohamedshaaban" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/iammohamedshaaban" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5380.719305562129!2d31.477513809323437!3d30.17552317661764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14581a59316a700b%3A0xedfd5e23cf328ee5!2z2YPYp9ix2YHZiNixINin2YTYudio2YjYsQ!5e0!3m2!1sar!2seg!4v1754328580840!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>About Us</h3>
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur. I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur</p>
+                    <br>
+                    <p>We are the champions! We are the most amazing theme of all time, yeah.</p>                
+                </div>
+                <div class="footer-col">
+                    <h3>Why we are special?</h3>
+                    <ul style="list-style-type:square;" >
+                        <li>Our magical recipe.</li>
+                         <hr>
+                        <li>We care about environment.</li>
+                        <hr>
+                        <li>We are trusted by hundreds of clients.</li>
+                        <hr>
+                        <li>Social media loves us!</li>
+                        <hr>
+                        <li>This list is super easy to create.</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Opening Hours</h3>
+                    <ul style="list-style-type:square;" >
+                        <li>Monday 10AM - 9PM</li>
+                         <hr>
+                        <li>Tuesday 10AM - 9PM</li>
+                        <hr>
+                        <li>Wednesday 10AM - 9PM</li>
+                        <hr>
+                        <li>Thursday 10AM - 10PM</li>
+                        <hr>
+                        <li>Friday 10AM - 10PM</li>
+                        <hr>
+                        <li>Weekends 10AM - 11PM</li>
+                    </ul>
+                </div> 
+                <div class="footer-col">
+                    <h3>Contact Details</h3>
+                     <li>Manchester Road 123-78B, Silictown 7854MD, Great Country</li>
+                         <hr>
+                        <li>+46 123 456 789</li>
+                        <hr>
+                        <li>hello@sitename.com</li>
+                        <hr>
+                        <li>http://www.sitename.com</li>
+                </div> 
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Bakery. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Simple mobile menu toggle
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').style.display = 
+                document.querySelector('nav ul').style.display === 'flex' ? 'none' : 'flex';
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
